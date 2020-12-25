@@ -1,17 +1,18 @@
 <template>
   <div>
+    <TypeNav/>
     <!-- 列表 -->
-    <ListContainer></ListContainer>
+    <ListContainer/>
     <!-- 今日推荐 -->
-    <TodayRecommend></TodayRecommend>
+    <TodayRecommend/>
     <!-- 商品排行 -->
-    <Rank></Rank>
+    <Rank/>
     <!-- 今日推荐 -->
-    <Like></Like>
+    <Like/>
     <!-- 楼层 -->
-    <Floor v-for="floor in floors" :floor="floor" :key="floor.id"></Floor>
+    <Floor/>
     <!-- 商标 -->
-    <Brand></Brand>
+    <Brand/>
   </div>
 </template>
 
